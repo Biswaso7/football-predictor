@@ -837,8 +837,9 @@ if __name__ == '__main__':
         schedule_background_tasks()
         
         # Run the application
-        app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
-    
+        port = int(os.environ.get('PORT', 10000))
+        app.run(host='0.0.0.0', port=port)
+        
     except KeyboardInterrupt:
         logger.info("Application stopped by user")
     except Exception as e:
