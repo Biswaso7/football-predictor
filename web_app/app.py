@@ -385,24 +385,44 @@ def index():
 @app.route('/predict')
 @login_required
 def predict():
-    """Prediction page"""
+    """Prediction page with live fixtures"""
     try:
-        # Get upcoming matches
-        upcoming_matches = FootballMatch.query.filter(
-            FootballMatch.match_date >= datetime.now(),
-            FootballMatch.status == 'scheduled'
-        ).order_by(FootballMatch.match_date).limit(20).all()
-        
-        # Get leagues
-        leagues = League.query.filter_by(active=True).all()
-        
-        return render_template('predict.html',
-                             matches=upcoming_matches,
-                             leagues=leagues)
-    
+        import os, requests, datetime as dt
+        API_KEY = os.getenv('FOOTBALL_API_KEY')
+        if not API_KEY:
+            flash('API key missing', 'warning')
+            return render_template('predict.html', matches=[], leagues=[])
+
+        # free-tier endpoint: today's Premier-League matches
+        url = "https://api.football-data.org/v4/competitions/PL/matches"
+        headers = {"X-Auth-Token": API_KEY}
+        r = requests.get(url, headers=headers, timeout=10)
+        if r.status_code != 200:
+            logger.warning(f"API error {r.status_code}")
+            flash('Fixtures unavailable', 'warning')
+            return render_template('predict.html', matches=[], leagues=[])
+
+        data = r.json()
+        matches = []
+        for m in data.get('matches', []):
+            if m['status'] in ('SCHEDULED', 'TIMED'):
+                matches.append({
+                    'match_id': m['id'],
+                    'home_team': m['homeTeam']['shortName'],
+                    'away_team': m['awayTeam']['shortName'],
+                    'league': 'Premier League',
+                    'match_date': m['utcDate'],
+                    'home_odds': 2.5,     # placeholder
+                    'draw_odds': 3.2,
+                    'away_odds': 2.8
+                })
+
+        leagues = ['Premier League']   # single league for now
+        return render_template('predict.html', matches=matches, leagues=leagues)
+
     except Exception as e:
-        logger.error(f"Error in predict route: {str(e)}")
-        return render_template('error.html', error="An error occurred loading predictions"), 500
+        logger.error(f"predict route: {e}")
+        return render_template('error.html', error="Could not load fixtures"), 500
 
 @app.route('/api/predict', methods=['POST'])
 @token_required
@@ -839,7 +859,7 @@ if __name__ == '__main__':
         # Run the application
         port = int(os.environ.get('PORT', 10000))
         app.run(host='0.0.0.0', port=port)
-        
+
     except KeyboardInterrupt:
         logger.info("Application stopped by user")
     except Exception as e:
