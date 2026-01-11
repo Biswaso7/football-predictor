@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Predictions{% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <h2>Today’s Fixtures</h2>
+  {% if matches %}
+    <div class="row">
+    {% for m in matches %}
+      <div class="col-md-6 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ m.home_team }} vs {{ m.away_team }}</h5>
+            <p class="text-muted">{{ m.match_date[:10] }} {{ m.match_date[11:16] }}</p>
+            <button class="btn btn-primary btn-sm">Get Prediction</button>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  {% else %}
+    <p class="text-muted">No scheduled matches right now.</p>
+  {% endif %}
+</div>
+{% endblock %}
