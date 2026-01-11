@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Error - Football Predictions{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <div class="alert alert-danger">
+    <h4 class="alert-heading">Oops! Something went wrong.</h4>
+    <p>{{ error }}</p>
+  </div>
+  <a class="btn btn-primary" href="{{ url_for('index') }}">Go Home</a>
+</div>
+{% endblock %}

@@ -1,0 +1,274 @@
+2026-01-11 08:30:20,695 - __main__ - INFO - Admin user created successfully
+2026-01-11 08:30:24,877 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 08:30:24,927 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.28:5000
+2026-01-11 08:30:24,927 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 08:30:24,929 - werkzeug - INFO -  * Restarting with stat
+2026-01-11 08:30:34,998 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 08:30:35,006 - werkzeug - WARNING -  * Debugger is active!
+2026-01-11 08:30:35,008 - werkzeug - INFO -  * Debugger PIN: 223-380-006
+2026-01-11 08:31:15,369 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2026-01-11 08:31:15,418 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:15] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 08:31:15,562 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:15] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-01-11 08:31:15,563 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:15] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-01-11 08:31:15,943 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:15] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=h4h7McW2xnCgdazo6jO8 HTTP/1.1" 200 -
+2026-01-11 08:31:15,943 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:15] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-01-11 08:31:16,039 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:31:27,318 - __main__ - ERROR - Error in index route: base.html
+2026-01-11 08:31:27,331 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-11 08:31:27,370 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:27] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-01-11 08:31:27,375 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:27] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-01-11 08:31:27,723 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:27] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=h4h7McW2xnCgdazo6jO8 HTTP/1.1" 200 -
+2026-01-11 08:31:27,725 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:27] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-01-11 08:31:27,811 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:31:53,373 - __main__ - ERROR - Error in index route: base.html
+2026-01-11 08:31:53,388 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-11 08:31:53,415 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 08:31:53,417 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 08:31:53,751 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=h4h7McW2xnCgdazo6jO8 HTTP/1.1[0m" 304 -
+2026-01-11 08:31:53,756 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:31:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:33:04,177 - __main__ - ERROR - Error in index route: base.html
+2026-01-11 08:33:04,247 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:33:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-11 08:33:04,303 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:33:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 08:33:04,311 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:33:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 08:33:04,352 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:33:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=h4h7McW2xnCgdazo6jO8 HTTP/1.1[0m" 304 -
+2026-01-11 08:33:04,373 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:33:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:33:04,395 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:33:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:44:12,979 - werkzeug - INFO -  * Detected change in 'C:\\Users\\biswa\\football_predictor\\web_app\\app.py', reloading
+2026-01-11 08:44:15,033 - werkzeug - INFO -  * Restarting with stat
+2026-01-11 08:45:46,801 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 08:45:46,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.28:5000
+2026-01-11 08:45:46,840 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 08:45:46,843 - werkzeug - INFO -  * Restarting with stat
+2026-01-11 08:45:58,545 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 08:45:58,567 - werkzeug - WARNING -  * Debugger is active!
+2026-01-11 08:45:58,572 - werkzeug - INFO -  * Debugger PIN: 223-380-006
+2026-01-11 08:46:15,666 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:15] "[32mGET /predict HTTP/1.1[0m" 302 -
+2026-01-11 08:46:15,698 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:15] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 08:46:15,877 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 08:46:15,879 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 08:46:16,266 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:16] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=pLnIN5frM92MswpbX3ue HTTP/1.1" 200 -
+2026-01-11 08:46:16,270 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:46:46,041 - __main__ - ERROR - Error in index route: base.html
+2026-01-11 08:46:46,072 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-11 08:46:46,139 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 08:46:46,142 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 08:46:46,602 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:46] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=pLnIN5frM92MswpbX3ue HTTP/1.1" 200 -
+2026-01-11 08:46:46,605 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:46:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:49:14,365 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:14] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 08:49:14,405 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 08:49:14,409 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 08:49:14,518 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=pLnIN5frM92MswpbX3ue HTTP/1.1[0m" 304 -
+2026-01-11 08:49:14,521 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:49:14,568 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:49:15,614 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:15] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 08:49:15,650 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 08:49:15,653 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 08:49:15,745 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=pLnIN5frM92MswpbX3ue HTTP/1.1[0m" 304 -
+2026-01-11 08:49:15,748 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:49:15,794 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:49:27,525 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:27] "GET / HTTP/1.1" 200 -
+2026-01-11 08:49:30,291 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 08:49:36,709 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:36] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2026-01-11 08:49:36,761 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:36] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-01-11 08:49:36,764 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:36] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-01-11 08:49:36,884 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:36] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=pLnIN5frM92MswpbX3ue HTTP/1.1" 200 -
+2026-01-11 08:49:36,888 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:36] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-01-11 08:49:36,944 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:36] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:49:38,879 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 08:49:40,511 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:40] "[32mGET /predict HTTP/1.1[0m" 302 -
+2026-01-11 08:49:40,541 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:40] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 08:49:40,595 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 08:49:40,600 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 08:49:40,692 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=pLnIN5frM92MswpbX3ue HTTP/1.1[0m" 304 -
+2026-01-11 08:49:40,695 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:40] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 08:49:43,370 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:49:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 08:54:30,091 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:54:30] "GET / HTTP/1.1" 200 -
+2026-01-11 08:54:31,045 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 08:54:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 08:56:23,769 - werkzeug - INFO -  * Detected change in 'C:\\Users\\biswa\\football_predictor\\web_app\\app.py', reloading
+2026-01-11 08:56:26,119 - werkzeug - INFO -  * Restarting with stat
+2026-01-11 09:06:41,183 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:06:41,202 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:06:41,203 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:10:26,780 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:10:26,787 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:10:26,788 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:10:26,789 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:10:26,792 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:10:26,792 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:10:26,792 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:10:26,792 - prediction_engine - INFO - Initializing prediction models...
+2026-01-11 09:10:26,793 - prediction_engine - INFO - Initializing ML models...
+2026-01-11 09:10:26,793 - prediction_engine - INFO - Initializing deep learning models...
+2026-01-11 09:20:03,152 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:03,159 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:03,159 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:03,161 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:03,164 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:03,164 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:03,164 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:20:03,165 - prediction_engine - INFO - Initializing prediction models...
+2026-01-11 09:20:03,165 - prediction_engine - INFO - Initializing ML models...
+2026-01-11 09:20:03,165 - prediction_engine - INFO - Initializing deep learning models...
+2026-01-11 09:20:03,938 - prediction_engine - INFO - Initializing statistical models...
+2026-01-11 09:20:03,938 - prediction_engine - INFO - Initializing ensemble models...
+2026-01-11 09:20:03,939 - prediction_engine - INFO - Models initialized successfully
+2026-01-11 09:20:03,941 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:03,947 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:03,948 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:03,950 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:03,953 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:03,953 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:03,954 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:20:08,114 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 09:20:08,138 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.28:5000
+2026-01-11 09:20:08,139 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 09:20:08,142 - werkzeug - INFO -  * Restarting with stat
+2026-01-11 09:20:16,386 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:16,392 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:16,392 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:16,393 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:16,397 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:16,397 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:16,397 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:20:16,397 - prediction_engine - INFO - Initializing prediction models...
+2026-01-11 09:20:16,397 - prediction_engine - INFO - Initializing ML models...
+2026-01-11 09:20:16,398 - prediction_engine - INFO - Initializing deep learning models...
+2026-01-11 09:20:17,153 - prediction_engine - INFO - Initializing statistical models...
+2026-01-11 09:20:17,154 - prediction_engine - INFO - Initializing ensemble models...
+2026-01-11 09:20:17,154 - prediction_engine - INFO - Models initialized successfully
+2026-01-11 09:20:17,156 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:17,160 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:17,160 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:20:17,161 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:20:17,164 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:17,165 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:20:17,165 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:20:21,354 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 09:20:21,369 - werkzeug - WARNING -  * Debugger is active!
+2026-01-11 09:20:21,377 - werkzeug - INFO -  * Debugger PIN: 223-380-006
+2026-01-11 09:24:38,269 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:38] "GET / HTTP/1.1" 200 -
+2026-01-11 09:24:39,022 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:24:45,709 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:45] "[32mGET /predict HTTP/1.1[0m" 302 -
+2026-01-11 09:24:45,735 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:45] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 09:24:45,953 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 09:24:45,958 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 09:24:46,017 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:46] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=ICZvbtHGGnl474mLgNEm HTTP/1.1" 200 -
+2026-01-11 09:24:46,018 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:24:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 09:26:35,626 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:35] "GET / HTTP/1.1" 200 -
+2026-01-11 09:26:41,617 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:26:44,567 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:44] "[32mGET /predict HTTP/1.1[0m" 302 -
+2026-01-11 09:26:44,596 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:44] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 09:26:44,652 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:44] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-01-11 09:26:44,655 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:44] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-01-11 09:26:44,752 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:44] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-01-11 09:26:44,795 - werkzeug - INFO - 192.168.1.28 - - [11/Jan/2026 09:26:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 09:26:52,136 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:52] "GET / HTTP/1.1" 200 -
+2026-01-11 09:26:52,894 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:26:57,890 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:57] "[32mGET /predict HTTP/1.1[0m" 302 -
+2026-01-11 09:26:57,918 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:57] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 09:26:57,992 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 09:26:57,995 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 09:26:58,092 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=ICZvbtHGGnl474mLgNEm HTTP/1.1[0m" 304 -
+2026-01-11 09:26:58,097 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:26:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 09:27:00,353 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:27:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:30:45,694 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:30:45] "GET / HTTP/1.1" 200 -
+2026-01-11 09:30:47,538 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:30:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:31:53,097 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:31:53] "GET / HTTP/1.1" 200 -
+2026-01-11 09:31:54,045 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:31:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:32:13,136 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:13] "GET / HTTP/1.1" 200 -
+2026-01-11 09:32:13,364 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:32:14,671 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:14] "[32mGET /predict HTTP/1.1[0m" 302 -
+2026-01-11 09:32:14,707 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:14] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 09:32:14,904 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 09:32:14,906 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 09:32:14,965 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=ICZvbtHGGnl474mLgNEm HTTP/1.1[0m" 304 -
+2026-01-11 09:32:14,968 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 09:32:16,723 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:32:18,819 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:18] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-01-11 09:32:18,881 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-11 09:32:18,883 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-11 09:32:18,964 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=ICZvbtHGGnl474mLgNEm HTTP/1.1[0m" 304 -
+2026-01-11 09:32:18,976 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:32:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-11 09:56:18,671 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:18,679 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:18,680 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:18,681 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:18,684 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:18,685 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:18,686 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:56:18,687 - prediction_engine - INFO - Initializing prediction models...
+2026-01-11 09:56:18,687 - prediction_engine - INFO - Initializing ML models...
+2026-01-11 09:56:18,688 - prediction_engine - INFO - Initializing deep learning models...
+2026-01-11 09:56:19,472 - prediction_engine - INFO - Initializing statistical models...
+2026-01-11 09:56:19,472 - prediction_engine - INFO - Initializing ensemble models...
+2026-01-11 09:56:19,473 - prediction_engine - INFO - Models initialized successfully
+2026-01-11 09:56:19,475 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:19,481 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:19,482 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:19,483 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:19,489 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:19,489 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:19,490 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:56:23,701 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 09:56:23,746 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.28:5000
+2026-01-11 09:56:23,746 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 09:56:23,750 - werkzeug - INFO -  * Restarting with stat
+2026-01-11 09:56:37,100 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:37,115 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:37,115 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:37,117 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:37,125 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:37,125 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:37,126 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:56:37,126 - prediction_engine - INFO - Initializing prediction models...
+2026-01-11 09:56:37,127 - prediction_engine - INFO - Initializing ML models...
+2026-01-11 09:56:37,127 - prediction_engine - INFO - Initializing deep learning models...
+2026-01-11 09:56:38,791 - prediction_engine - INFO - Initializing statistical models...
+2026-01-11 09:56:38,792 - prediction_engine - INFO - Initializing ensemble models...
+2026-01-11 09:56:38,793 - prediction_engine - INFO - Models initialized successfully
+2026-01-11 09:56:38,795 - data_processor - WARNING - DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:38,805 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:38,806 - data_processor - INFO - DataProcessor initialized successfully
+2026-01-11 09:56:38,808 - betting_calculator - WARNING - Betting DB not reachable – using in-memory fallback: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-11 09:56:38,813 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:38,814 - betting_calculator - INFO - BettingCalculator initialized successfully
+2026-01-11 09:56:38,814 - model_trainer - INFO - ModelTrainer initialized successfully
+2026-01-11 09:56:43,121 - __main__ - ERROR - Error scheduling background tasks: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2026-01-11 09:56:43,142 - werkzeug - WARNING -  * Debugger is active!
+2026-01-11 09:56:43,150 - werkzeug - INFO -  * Debugger PIN: 223-380-006
+2026-01-11 09:56:43,324 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:56:43] "GET / HTTP/1.1" 200 -
+2026-01-11 09:56:43,335 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:56:43] "GET / HTTP/1.1" 200 -
+2026-01-11 09:56:44,106 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:56:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-01-11 09:57:50,802 - werkzeug - INFO -  * Detected change in 'C:\\Users\\biswa\\football_predictor\\web_app\\app.py', reloading
+2026-01-11 09:57:52,822 - werkzeug - INFO -  * Restarting with stat
